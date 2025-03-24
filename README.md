@@ -1,5 +1,7 @@
-# Gororo Warranty
-2024 Taipei Blockchain Week Move contract example
+Gororo Warranty
+---
+![SuiVersion](./.github/badges/sui-version-badge.svg)
+![Coverage](./.github/badges/coverage.svg)
 
 ### Using Scenario
 
