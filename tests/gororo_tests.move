@@ -17,6 +17,10 @@ fun test_issued_warranty_card_can_transfer() {
 
     let mut scenario = test_scenario::begin(gororo_admin);
     {
+        // NOTE:
+        // If you run `sui move test` locally, please use `test_for_init`.
+        // The github CI use a customized sui-move, such that you can use any package init function.
+        // https://github.com/sui-foundation/2025-Sui-Hacker-House-template/blob/c5f6fae44592efc9f7cc2b79f05f5805c27ad24b/sources/template.move#L78-L81
         init(scenario.ctx());
     };
 
